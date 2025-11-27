@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos para el Desarrollo - Guía de Ahorro Familiar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <div class="logo">Recursos para el Desarrollo</div>
+            <nav class="nav">
+                <a href="#inicio">Inicio</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#recursos">Recursos</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </div>
+
+    <div class="hero">
+        <h1>Guía Práctica de Ahorro Familiar</h1>
+        <p>Herramientas y recursos gratuitos para fortalecer la economía de las familias peruanas</p>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <div class="breadcrumb">
+                <a href="#inicio">Inicio</a> » <a href="#recursos">Recursos</a> » Guía de Ahorro Familiar
+            </div>
+
+            <div class="intro-text">
+                Como parte de nuestro compromiso con el desarrollo social y el fortalecimiento de capacidades de los sectores menos favorecidos, ponemos a su disposición esta guía práctica diseñada para apoyar a las familias peruanas en la gestión responsable de sus recursos económicos.
+            </div>
+
+            <h2>Sobre este Recurso</h2>
+
+            <div class="resource-box">
+                <h3>¿Qué encontrará en esta guía?</h3>
+                <p>Esta guía ha sido desarrollada con el objetivo de brindar herramientas prácticas y accesibles para la gestión financiera familiar. El contenido incluye:</p>
+
+                <ul class="features-list">
+                    <li>Metodologías de análisis de gastos e ingresos familiares</li>
+                    <li>Estrategias de ahorro adaptadas al contexto peruano</li>
+                    <li>Plantillas prácticas para elaboración de presupuestos</li>
+                    <li>Técnicas para la construcción de fondos de emergencia</li>
+                    <li>Consejos para la reducción de gastos innecesarios</li>
+                    <li>Introducción a conceptos básicos de educación financiera</li>
+                </ul>
+            </div>
+
+            <div class="download-section">
+                <h3 style="color: #2c5f8d; margin-bottom: 15px;">Descargue la Guía de Forma Gratuita</h3>
+                <p style="margin-bottom: 25px; color: #666;">Recurso de acceso libre y gratuito para toda la comunidad</p>
+                <button class="download-btn" onclick="showDonationModal()">
+                    Descargar Guía Completa
+                </button>
+                <p class="info-text">Formato: PDF | Tamaño: Aproximadamente 120KB</p>
+            </div>
+
+            <div class="resource-box">
+                <h3>¿A quién está dirigido?</h3>
+                <p>Este material está especialmente diseñado para:</p>
+                <ul class="features-list">
+                    <li>Familias que desean mejorar su gestión financiera</li>
+                    <li>Organizaciones sociales y comunitarias</li>
+                    <li>Promotores de desarrollo social</li>
+                    <li>Educadores y facilitadores comunitarios</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="donationModal">
+        <div class="modal-content">
+            <h3>¡Descarga Iniciada!</h3>
+            <p>Su guía se está descargando automáticamente. Este recurso es completamente gratuito y ha sido desarrollado para contribuir al fortalecimiento de capacidades de las familias peruanas.</p>
+            
+            <div class="donation-box">
+                <div class="yape-icon">💜</div>
+                <div class="donation-label">Apoye Nuestro Trabajo</div>
+                <p style="font-size: 0.95em; color: #555;">Si este recurso le resulta útil, puede apoyar la continuidad de nuestros proyectos sociales mediante una donación voluntaria:</p>
+                <div class="yape-number">999 888 777</div>
+                <p style="font-size: 0.9em; color: #777;">Donaciones vía Yape</p>
+            </div>
+
+            <p style="font-size: 0.95em; color: #666; line-height: 1.6;">Su aporte voluntario nos ayuda a seguir desarrollando recursos gratuitos y programas de desarrollo social para las comunidades que más lo necesitan. Cada contribución suma en nuestro compromiso con la equidad y el desarrollo sostenible.</p>
+
+            <div class="button-group">
+                <button class="btn btn-donate" onclick="copyYapeNumber()">
+                    Copiar Número
+                </button>
+                <button class="btn btn-skip" onclick="closeModal()">
+                    Continuar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-content">
+            <div>
+                <h4>Acerca de Nosotros</h4>
+                <p>Organización dedicada al servicio de la promoción del desarrollo social y el fortalecimiento de capacidades.</p>
+            </div>
+            <div>
+                <h4>Contacto</h4>
+                <p>Lima - Perú</p>
+                <p>info@ejemplo.org.pe</p>
+                <p>Teléf. (51-1) 123-4567</p>
+            </div>
+            <div>
+                <h4>Redes Sociales</h4>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
